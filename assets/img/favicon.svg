@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Industrial AI Lab favicon</title>
+  <rect width="64" height="64" rx="12" fill="#19324a"/>
+  <circle cx="20" cy="20" r="6" fill="#c98a2a"/>
+  <circle cx="44" cy="20" r="6" fill="#ffffff"/>
+  <circle cx="20" cy="44" r="6" fill="#ffffff"/>
+  <circle cx="44" cy="44" r="6" fill="#b41f3a"/>
+  <path d="M20 20h24M20 20v24M44 20v24M20 44h24" stroke="#d7e2e5" stroke-width="4" stroke-linecap="round"/>
+</svg>
