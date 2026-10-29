@@ -1,13 +1,13 @@
-# Muyang Lyu
+# Personal Website
 
-Personal academic website: https://muyang0110.github.io/personal_website/
+My academic homepage, with research interests, experience, publications, teaching, and updates.
 
-Repository: Muyang0110/personal_website. GitHub Pages serves the main branch from /(root); keep .nojekyll. All personal navigation and assets use the /personal_website/ project path.
+[Visit the website](https://muyang0110.github.io/personal_website/)
 
-The Industrial AI Lab name and logo link back to https://ntu-iai-lab.github.io/. Only Muyang's pages and referenced assets are included. The lab member page is maintained independently.
+The lab links lead to the [Industrial AI Lab](https://ntu-iai-lab.github.io/).
 
-GitHub Pages cannot run the local visitor analytics backend. The map remains available with an explicit unavailable-statistics notice and no tracking API requests.
+To update the site, edit the local Markdown sources, run `node scripts/prepare-personal-pages.mjs`, and push the regenerated files from `release/personal_website`.
 
-To update, edit the personal Markdown sources in the local website workspace and rerun node scripts/prepare-personal-pages.mjs. Commit the regenerated release/personal_website files here.
+Hosted on GitHub Pages. Live visitor statistics need a separate backend.
 
-Template: Minimal Light; original license retained in LICENSE. Leaflet license: assets/leaflet-LICENSE.txt. Map: Natural Earth.
+Built with Minimal Light. See LICENSE for the original license; Leaflet and Natural Earth provide the map resources.
