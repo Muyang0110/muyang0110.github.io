@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://muyang0110.github.io/personal_website/sitemap.xml
+Sitemap: https://muyang0110.github.io/sitemap.xml

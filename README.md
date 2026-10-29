@@ -2,7 +2,9 @@
 
 My academic homepage, with research interests, experience, publications, teaching, and updates.
 
-[Visit the website](https://muyang0110.github.io/personal_website/)
+[Visit the website](https://muyang0110.github.io/)
+
+Short entry with my surname: [lyu](https://muyang0110.github.io/lyu/).
 
 The lab links lead to the [Industrial AI Lab](https://ntu-iai-lab.github.io/).
 
