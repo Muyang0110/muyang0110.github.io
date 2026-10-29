@@ -4,8 +4,6 @@ My academic homepage, with research interests, experience, publications, teachin
 
 [Visit the website](https://muyang0110.github.io/)
 
-Short entry with my surname: [lyu](https://muyang0110.github.io/lyu/).
-
 The lab links lead to the [Industrial AI Lab](https://ntu-iai-lab.github.io/).
 
 To update the site, edit the local Markdown sources, run `node scripts/prepare-personal-pages.mjs`, and push the regenerated files from `release/personal_website`.
