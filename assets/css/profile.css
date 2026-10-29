@@ -89,7 +89,7 @@
 .profile-page .collaborator-context { color: #666; font-size: 14px; }
 .profile-page .profile-page-footer { margin-top: 30px; font-size: 14px; }
 .profile-page .profile-awards { padding-left: 20px; font-size: 16px; }
-.profile-page .profile-awards-cau { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 34px; margin-top: 0; }
+.profile-page .profile-awards-earlier { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); column-gap: 24px; margin-top: 0; font-size: 14px; }
 @media (max-width: 1120px) and (min-width: 961px) { .profile-page .entry-heading { flex-wrap: wrap; gap: 3px 12px; } }
 @media (max-width: 960px) {
   .profile-page .wrapper { width: min(780px, calc(100% - 40px)); }
@@ -117,6 +117,6 @@
   .profile-page .profile-news li { grid-template-columns: 76px minmax(0,1fr); gap: 10px; }
   .profile-page .publication-featured { grid-template-columns: minmax(0, 1fr); grid-template-areas: "preview" "copy"; gap: 14px; }
   .profile-page .publication-preview { width: 100%; height: auto; aspect-ratio: 3 / 2; }
-  .profile-page .profile-awards-cau { grid-template-columns: 1fr; }
+  .profile-page .profile-awards-earlier { grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .profile-page * { transition: none !important; } }
