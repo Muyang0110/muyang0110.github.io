@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/assets/css/nav.css">
     <link rel="stylesheet" href="/assets/css/profile.css">
     <script src="/assets/js/profile.js" defer></script>
+    <script src="/assets/js/visitor-counter.js" defer></script>
       <link rel="canonical" href="https://muyang0110.github.io/muyang-visitors/">
   </head>
   <body class="profile-page" data-profile-home="/" data-publications-link="/muyang-publications/">
@@ -56,15 +57,19 @@
         <a class="group-link" href="https://ntu-iai-lab.github.io/research-group/">Industrial AI Lab</a>
       </header>
       <section aria-label="Muyang Lyu profile">
-<link rel="stylesheet" href="/assets/css/leaflet.css">
-<script src="/assets/js/leaflet.js" defer></script>
-<script src="/assets/js/visitor-map.js" defer></script>
-
-<div class="profile-section-heading"><h2 id="visitors">Visitor Map</h2><div class="visitor-counts"><span><strong id="visitor-total">0</strong> visits</span><span><strong id="visitor-countries">0</strong> countries</span></div></div>
-<div id="visitor-map" role="region" aria-label="World map of approximate visitor locations"></div>
-<p id="visitor-status" class="visitor-status" role="status">Live visitor statistics require a separate backend; GitHub Pages serves static files only.</p>
-<ul id="visitor-locations" class="visitor-locations" aria-label="Visitor locations"></ul>
-<p class="visitor-privacy">City-level estimates only. No precise locations or IP addresses are stored.</p>
+<div class="profile-section-heading"><h2 id="visitors">Visitor Map &amp; Statistics</h2></div>
+<p>Approximate countries of visitors to this personal website.</p>
+<a class="visitor-widget visitor-widget-map" data-visitor-widget="map" href="https://s05.flagcounter.com/more/3QXR" target="_blank" rel="noopener noreferrer"><span class="visitor-widget-placeholder">Loading visitor map...</span></a>
+<h3>Visitors by Country</h3>
+<a class="visitor-widget visitor-country-breakdown" data-visitor-widget="countries" href="https://s05.flagcounter.com/countries/3QXR/" target="_blank" rel="noopener noreferrer"><span class="visitor-widget-placeholder">Loading visitor counts...</span></a>
+<p id="visitor-status" class="visitor-status" role="status">Loading live visitor statistics...</p>
+<p><a href="https://s05.flagcounter.com/more30/3QXR/" target="_blank" rel="noopener noreferrer">View visitor totals and history</a></p>
+<p class="visitor-privacy">Country-level estimates and counts are provided by <a href="https://flagcounter.com/" target="_blank" rel="noopener noreferrer">Flag Counter</a>. Repeat visitors are counted once per 24 hours by default. Tracking starts when enabled; past visits cannot be recovered. <a href="https://flagcounter.com/privacy.html" target="_blank" rel="noopener noreferrer">Privacy policy</a>.</p>
+        <div class="profile-visitor-footer" aria-label="Visitor statistics">
+          <a class="visitor-map-link" href="/muyang-visitors/">Visitor Map &amp; Statistics</a>
+          <a class="visitor-widget visitor-widget-compact" data-visitor-widget="compact" href="https://s05.flagcounter.com/more/3QXR" target="_blank" rel="noopener noreferrer"><span class="visitor-widget-placeholder">Loading visitor counts...</span></a>
+          <p class="visitor-privacy">Visitor counts by country, provided by <a href="https://flagcounter.com/" target="_blank" rel="noopener noreferrer">Flag Counter</a>. <a href="https://flagcounter.com/privacy.html" target="_blank" rel="noopener noreferrer">Privacy policy</a>.</p>
+        </div>
       </section>
     </div>
   </body>
